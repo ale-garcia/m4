@@ -229,7 +229,7 @@ textarea.form-control:focus:not([readonly]) {
 ================================================================*/
 
 .cd-header a.brand-logo img{
-    width: 15%;
+    width: 10%;
     margin-left: 10%;
     padding: 5px;
     margin-top: 20px;
@@ -292,7 +292,7 @@ nav ul li {
 ===============================================================*/
 
 .home {
-    background: url(../images/homebg.jpg) no-repeat top center #141315;
+    background-image: url("pf11.jpg");
     background-size: cover;
     position: relative;
     padding-top: 80px;
@@ -437,6 +437,7 @@ nav ul li {
 }
 .single_portfolio_overlay .icon_area{
     position: absolute;
+    color: black;
     top:45%;
     width:100%;
     height: 100%;

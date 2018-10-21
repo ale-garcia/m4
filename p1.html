@@ -48,6 +48,7 @@
     <!--Theme Colors css-->
     <!--<link rel="stylesheet" href="assets/css/white.css">-->
 
+	<link href='assets/css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
 
 
     <!--Old browser  JS-->
@@ -60,15 +61,14 @@
 
         <div class="preloader">
             <h2>m4 Arquitectura</h2>
-            <div class="loaded hexdots-loader">Cargando…</div>
+            <div class="loaded hexdots-loader"></div>
         </div><!-- End off Preloader -->
 
-
-
+        
         <div class="container">
             <div class="div-menu">
-                <header class="cd-header">
-                    <a href="#home" class="brand-logo text-left"><img src="assets/images/logo.png" alt="" /></a>
+                <header class="cd-header" style="background: black">
+                    <a href="index.html" class="brand-logo text-left"><img src="assets/images/logo.png" alt="" /></a>
                     <a class="cd-menu-trigger" href="#main-nav"><span></span></a>
                 </header>
             </div>
@@ -83,43 +83,9 @@
                 <a href="#" class="cd-close-menu">Cerrar<span></span></a>
             </nav>
         </div>
-
-        <!-- Home Section -->
-            <section id="home" class="home">
-                    
-                <div class="overlay" style="opacity: 0.3"></div>
-                
-                <div class="container">
-                        
-                    <div class="row">
-                        <div class="col-md-12 ">
-                                
-                            <div class="main_home text-center wow fadeInUp" data-wow-duration="700ms">
-                                <h1>Ideas innovadoras. <br /> 
-                                    Explora la creatividad.</h1>
-                                   
-                                <ul class="list-inline ">
-                                        <li><a href="#home">Inicio</a></li>
-                                        <li><a href="#about">Acerca de</a></li>
-                                        <li><a href="#service">Proyectos</a></li>
-                                        <li><a href="#contactus">Contacto</a></li>
-                                </ul>
-                            
-                            </div>
-                            
-                            <div class="scrolldown">
-                                <a href="#about"><i class="fa fa-long-arrow-down"></i></a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </section>-->
-        <!-- End of Home Section -->
-
-
-
-        <!-- About Section -->
+             
+   
+            <!-- About Section -->
         <section id="about" class="about">
             <div class="container">
                 <div class="row">
@@ -128,7 +94,7 @@
                             <div class="head_title m-y-3  wow fadeInUp">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <h2>Acerca de</h2>
+                                        <h2>Edificio MARTA</h2>
                                     </div>
                                     <div class="col-md-8">
                                         <h6 class="m-b-2">Soy juana de bar. Soy juana de bar. Soy juana de bar. Soy
@@ -145,99 +111,111 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="about_content center p-b-3 wow fadeInUp" data-wow-duration="700ms">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="single_abt single_about m-y-3">
-                                            <i class="fa fa-money"></i>
-                                            <h3>Precio</h3>
-                                            <p>Precios negociables que baten a la competencia.</p>
 
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single_abt single_about m-y-3">
-                                            <i class="fa fa-pencil-square-o"></i>
-                                            <h3>Diseño</h3>
-                                            <p>Diseños creativos, deja volar tu imaginacion.</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="single_abt single_about m-y-3">
-                                            <i class="fa fa-simplybuilt"></i>
-                                            <h3>Tecnología</h3>
-                                            <p>Tecnología de punta, 2D, 3D y VR.</p>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
                         </div>
                         <hr />
                     </div><!-- End of col-md-12 -->
                 </div><!-- End of row -->
             </div><!-- End of Container-fluid -->
         </section><!-- End of Home Section -->
-        <section id="portfolio" class="portfolio">
-            <div class="container">
-                    <h2>Nuestros Proyectos</h2>
-                    <div class="main_portfolio_content">
-                            
+
+
+        <section id="project">
+
                 <div class="row">
-                    <div class="col-sm">
-
-                        
-
-
-                            <div class="single_portfolio">
-                                <a href="p1.html">
-                                    <img src="assets/images/pf11.jpg" alt="" />
-                                    <div class="single_portfolio_overlay">
-                                        <div class="icon_area text-center">
-                                            <h2>Edificio Marta</h2>
-                                            <p>Edificio de apartamentos con
-                                                diseño moderno ubicado cerca del estadio.</p>
-                                        </div>
-                                    </div>
-                                </a>
+                    <div style="min-height: 50px;">
+                        <!-- Jssor Slider Begin -->
+    
+                        <style>
+                            /* jssor slider loading skin spin css */
+                        .jssorl-009-spin img {
+                            animation-name: jssorl-009-spin;
+                            animation-duration: 1.6s;
+                            animation-iteration-count: infinite;
+                            animation-timing-function: linear;
+                        }
+            
+                        @keyframes jssorl-009-spin {
+                            from {
+                                transform: rotate(0deg);
+                            }
+            
+                            to {
+                                transform: rotate(360deg);
+                            }
+                        }
+                    </style>
+                        <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto;
+                    top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                            <!-- Loading Screen -->
+                            <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../svg/loading/static-svg/spin.svg" />
                             </div>
-
-
-                        
-                    </div>
-                    <div class="col-sm">
-                        <div class="single_portfolio">
-                            <a href="projects.html" class="gallery-img">
-                                <img src="assets/images/pf12.jpg" alt="" />
-                                <div class="single_portfolio_overlay">
-                                    <div class="icon_area text-center">
-                                        <h2>Edificio Juanchin</h2>
-                                        <p>Este es el mejor edificio.</p>
-                                    </div>
+    
+                            <!-- Slides Container -->
+                            <div data-u="slides" style="position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                                <div>
+                                    <img data-u="image" src="assets/images/pf11.jpg" />
                                 </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="single_portfolio">
-                            <a href="assets/images/pf11.jpg" class="gallery-img">
-                                <img src="assets/images/pf15.jpg" alt="" />
-                                <div class="single_portfolio_overlay">
-                                    <div class="icon_area text-center">
-                                        <h2>Edificio SOHINCO</h2>
-                                        <p>Otro gran edificio.</p>
-                                    </div>
+                                <div>
+                                    <img data-u="image" src="assets/images/pf12.jpg"/>
                                 </div>
-                            </a>
+                                <div>
+                                    <img data-u="image" src="assets/images/pf13.jpg"/>
+                                </div>
+                            </div>
+    
+                            <!--#region Bullet Navigator Skin Begin -->
+                            <!-- Help: https://www.jssor.com/development/slider-with-bullet-navigator.html -->
+                            <style>
+                                .jssorb031 {position:absolute;}
+                            .jssorb031 .i {position:absolute;cursor:pointer;}
+                            .jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
+                            .jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
+                            .jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
+                            .jssorb031 .i.idn {opacity:.3;}
+                        </style>
+                            <div data-u="navigator" class="jssorb031" style="position:absolute;bottom:12px;right:12px;"
+                                data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                                <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                                    </svg>
+                                </div>
+                            </div>
+                            <!--#endregion Bullet Navigator Skin End -->
+    
+                            <!--#region Arrow Navigator Skin Begin -->
+                            <!-- Help: https://www.jssor.com/development/slider-with-arrow-navigator.html -->
+                            <style>
+                                .jssora051 {display:block;position:absolute;cursor:pointer;}
+                            .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+                            .jssora051:hover {opacity:.8;}
+                            .jssora051.jssora051dn {opacity:.5;}
+                            .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+                        </style>
+                            <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;"
+                                data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                    <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                                </svg>
+                            </div>
+                            <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;"
+                                data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                    <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                                </svg>
+                            </div>
+                            <!--#endregion Arrow Navigator Skin End -->
                         </div>
+                        <!-- Jssor Slider End -->
                     </div>
                 </div>
-            </div>
-            </div>
-        </section>
-        <section id="service" class="service colorsbg">
+   
+            </section>
+
+
+      <section id="service" class="service colorsbg">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
@@ -259,7 +237,7 @@
                                     <div class="row">
                                         <div class="col-md-6 no-padding">
                                             <div class="signle_service_left text-sm-center wow fadeInleft">
-                                                <img src="assets/images/service1.jpg" alt="" />
+                                                <img src="assets/images/pf14.jpg" alt="" />
                                             </div>
                                         </div>
                                         <div class="col-md-5 col-md-push-1">
@@ -288,7 +266,7 @@
                                     <div class="row">
                                         <div class="col-md-6 col-md-push-6 no-padding">
                                             <div class="signle_service_left text-sm-center wow fadeInRight">
-                                                <img src="assets/images/service2.jpg" alt="" />
+                                                <img src="assets/images/pf15.jpg" alt="" />
                                             </div>
                                         </div>
 
@@ -315,70 +293,40 @@
                                     </div>
                                 </div><!-- End of single service area -->
                             </div><!-- End of main service content -->
-
+                            
                         </div><!-- End of main service area -->
                     </div><!-- End of col-md-12 -->
                 </div><!-- End of row -->
+
             </div><!-- End of container -->
         </section><!-- End of Service Section -->
-
-
-        <!-- Team Section -->
-        <section id="team" class="team">
-            <div class="container">
-                <div class="row">
-                    <div class="main_team_area m-t-3">
-                        <div class="head_title m-y-3  wow fadeInUp">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <h2>Nuestro equipo</h2>
-                                </div>
-                                <div class="col-md-8">
-                                    <h6>Los mejores profesionales en todas las áreas.
-                                        Juana de bar. Juana de bar. Juana de bar.
-                                        Juana de bar. Juana de bar. Juana de bar. </h6>
-                                </div>
+        <hr>
+        <section id="portfolio" class="portfolio">
+            
+                <div class="container">
+                        <h2>Galería de fotos</h2>
+                        <div class="row">
+                        <div class="gallery">
+                                <a href="assets/images/pf11.jpg" ><img src="assets/images/pf11.jpg" style="width: 90px; height: 90px;" alt="" title="Fachada principal"/></a>
+                                <a href="assets/images/pf12.jpg"><img src="assets/images/pf12.jpg" style="width: 90px; height: 90px;" alt="" title="Vista planta"/></a>
+                                <a href="assets/images/pf11.jpg" ><img src="assets/images/pf11.jpg" style="width: 90px; height: 90px;" alt="" title="Fachada principal"/></a>
+                                <a href="assets/images/pf12.jpg"><img src="assets/images/pf12.jpg" style="width: 90px; height: 90px;" alt="" title="Vista planta"/></a>
+                                <a href="assets/images/pf11.jpg" ><img src="assets/images/pf11.jpg" style="width: 90px; height: 90px;" alt="" title="Fachada principal"/></a>
+                                <a href="assets/images/pf12.jpg"><img src="assets/images/pf12.jpg" style="width: 90px; height: 90px;" alt="" title="Vista planta"/></a>
+                                <a href="assets/images/pf11.jpg" ><img src="assets/images/pf11.jpg" style="width: 90px; height: 90px;" alt="" title="Fachada principal"/></a>
+                                <a href="assets/images/pf12.jpg"><img src="assets/images/pf12.jpg" style="width: 90px; height: 90px;" alt="" title="Vista planta"/></a>
+                                <a href="assets/images/pf11.jpg" ><img src="assets/images/pf11.jpg" style="width: 90px; height: 90px;" alt="" title="Fachada principal"/></a>
+                                <a href="assets/images/pf12.jpg"><img src="assets/images/pf12.jpg" style="width: 90px; height: 90px;" alt="" title="Vista planta"/></a>
+                                <a href="assets/images/pf11.jpg" ><img src="assets/images/pf11.jpg" style="width: 90px; height: 90px;" alt="" title="Fachada principal"/></a>
+                                <a href="assets/images/pf12.jpg"><img src="assets/images/pf12.jpg" style="width: 90px; height: 90px;" alt="" title="Vista planta"/></a>
+                                
+                                <div class="clear"></div>
+                    
                             </div>
                         </div>
-
-                        <div class="main_team_content wow fadeInUp">
-                            <div class="col-md-3 col-xs-12">
-                                <div class="single_team m-t-2">
-                                    <div class="team_socail_area text-center m-b-1">
-                                        <a href=""><i class="fa fa-facebook"></i></a>
-                                        <a href=""><i class="fa fa-behance"></i></a>
-                                        <a href=""><i class="fa fa-dribbble"></i></a>
-                                        <a href=""><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                    <img src="assets/images/juana.jpg" alt="" />
-                                    <div class="single_team_text text-center">
-                                        <h6>Juanchex</h6>
-                                        <p>ARQUITECTO, DIRECTOR CREATIVO</p>
-                                    </div>
-                                </div>
-                            </div><!-- End of col-md-4 -->
-
-                            <div class="col-md-3 col-xs-12">
-                                <div class="single_team  m-t-2">
-                                    <div class="team_socail_area text-center m-b-1">
-                                        <a href=""><i class="fa fa-facebook"></i></a>
-                                        <a href=""><i class="fa fa-behance"></i></a>
-                                        <a href=""><i class="fa fa-dribbble"></i></a>
-                                        <a href=""><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                    <img src="assets/images/yo.jpg" alt="" />
-                                    <div class="single_team_text text-center">
-                                        <h6>Juanchin</h6>
-                                        <p>Software designer</p>
-                                    </div>
-                                </div>
-                            </div><!-- End of col-md-4 -->
-                        </div>
-                    </div><!-- End of main Team area -->
-                </div><!-- End of row -->
-            </div><!-- End of container -->
-        </section><!-- End of Team Section -->
-
+                </div>
+            </section>
+            <hr>
         <!-- Testiomonial Section -->
         <section id="testiomonial" class="testimonial">
             <div class="main_testimonial_area">
@@ -420,153 +368,6 @@
                 </div>
             </div>
         </section> <!-- End of testimonial Section -->
-
-        <!--
-            <section id="blog" class="blog">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="main_blog_area m-y-3 p-y-3 wow fadeInUp">
-                                <div class="col-md-3">
-                                    <div class="single_blog_menu m-t-2">
-                                        <h2>Blog</h2>
-                                        <ul>
-                                            <li class="active"><a href="">Latest Posts</a></li>
-                                            <li><a href="">Design</a></li>
-                                            <li><a href="">develop</a></li>
-                                            <li><a href="">support</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="single_blog m-t-2">
-                                        <div class="single_blog_img">
-                                            <img src="assets/images/blog1.jpg" alt="" />
-                                        </div>
-                                        <div class="single_blog_text m-t-1">
-                                            <h6>Quisque sit amet quam centum, aliquet nisi et, viverra dui.</h6>
-                                            <span class="font-italic">May 14th, 2016</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="single_blog m-t-2">
-                                        <div class="single_blog_img">
-                                            <img src="assets/images/blog2.jpg" alt="" />
-                                        </div>
-                                        <div class="single_blog_text m-t-1">
-                                            <h6>Quisque sit amet quam centum, aliquet nisi et, viverra dui.</h6>
-                                            <span class="">May 14th, 2016</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="single_blog m-t-2">
-                                        <div class="single_blog_img">
-                                            <img src="assets/images/blog3.jpg" alt="" />
-                                        </div>
-                                        <div class="single_blog_text m-t-1">
-                                            <h6>Quisque sit amet quam centum, aliquet nisi et, viverra dui.</h6>
-                                            <span class="">May 14th, 2016</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>-->
-       
-
-        <!-- Contact Section -->
-        <section id="contactus" class="contactus colorsbg">
-            <div class="container-fluid">
-                    <div class="main_service_area main_contactus_area">
-
-                        <div class="row">
-                            <div class="col-md-6 no-padding">
-                                <div class="contact_us_right wow fadeInLeft">
-                                    <div class="single_contactus">
-                                        <iframe class="ourmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.4937951846614!2d-66.1683995855043!3d-17.388074588078165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e3740b38c45eab%3A0xab46ecade41615f7!2sAv+Humboldt%2C+Cochabamba%2C+Bolivia!5e0!3m2!1sen!2sfr!4v1539539786789"
-                                            allowfullscreen>
-                                        </iframe>
-                                    </div>
-                                </div>
-                            </div><!-- End of col-md-6 -->
-
-
-                            <div class="col-md-6 no-padding wow rollIn">
-                                <div class="main_contact_area p-t-2 p-x-3">
-                                    <div class="head_title">
-                                        <h2>Contáctanos</h2>
-                                    </div>
-                                    <div class="single_contant_right">
-                                        <form action="#" id="formid">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" name="name" placeholder="Tu nombre..."
-                                                            required="">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" name="phone"
-                                                            placeholder="Teléfono" required="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <input type="email" class="form-control" name="email"
-                                                            placeholder="E-mail" required="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <textarea class="form-control" name="message" rows="8"
-                                                            placeholder="Tu mensaje"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                                <div class="m-b-2 m-t-2">
-                                                    <input type="submit" value="Enviar mensaje">
-                                                </div>
-                                            
-                                        </form>
-
-                                    </div>
-                                    <!-- Copyright -->
-                                    <div class="row">
-                                        <div class="main_footer">
-                                            <div class="col-md-3">
-                                                <div class="footer_logo text-xs-center m-b-2">
-                                                    <a href="#home"><img src="assets/images/logo.png" alt="" /></a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1 no-padding">
-                                                <div class="scrollup center">
-                                                    <a href="#"><i class="fa fa-chevron-up"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div><!-- End of row -->
-                                </div><!-- End of main contact area -->
-
-                            </div><!-- End of col-md-6 -->
-                        </div>
-                    </div>
-            </div><!-- End of container -->
-        </section><!-- End of Contactus Section -->
-
-
-
-
 
     </div>
 
@@ -671,6 +472,53 @@
             //responsive code end
         });
     </script>
+    <script type="text/javascript" src="assets/js/simple-lightbox.js"></script>
+    <script>
+            $(function(){
+                var $gallery = $('.gallery a').simpleLightbox();
+        
+                $gallery.on('show.simplelightbox', function(){
+                    console.log('Requested for showing');
+                })
+                .on('shown.simplelightbox', function(){
+                    console.log('Shown');
+                })
+                .on('close.simplelightbox', function(){
+                    console.log('Requested for closing');
+                })
+                .on('closed.simplelightbox', function(){
+                    console.log('Closed');
+                })
+                .on('change.simplelightbox', function(){
+                    console.log('Requested for change');
+                })
+                .on('next.simplelightbox', function(){
+                    console.log('Requested for next');
+                })
+                .on('prev.simplelightbox', function(){
+                    console.log('Requested for prev');
+                })
+                .on('nextImageLoaded.simplelightbox', function(){
+                    console.log('Next image loaded');
+                })
+                .on('prevImageLoaded.simplelightbox', function(){
+                    console.log('Prev image loaded');
+                })
+                .on('changed.simplelightbox', function(){
+                    console.log('Image changed');
+                })
+                .on('nextDone.simplelightbox', function(){
+                    console.log('Image changed to next');
+                })
+                .on('prevDone.simplelightbox', function(){
+                    console.log('Image changed to prev');
+                })
+                .on('error.simplelightbox', function(e){
+                    console.log('No image found, go to the next/prev');
+                    console.log(e);
+                });
+            });
+        </script>
 
 </body>
 
