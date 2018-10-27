@@ -55,7 +55,12 @@
 
 </head>
 
-<body data-spy="scroll" data-target="#scrollspy">
+<body>
+
+
+    <a id="myBtn" href="#" class="scrollup center"><i class="fa fa-chevron-up"></i></a>
+
+
     <div class="main_figur">
 
         <div class="preloader">
@@ -85,36 +90,37 @@
         </div>
 
         <!-- Home Section -->
-            <section id="home" class="home">
-                    
-                <div class="overlay" style="opacity: 0.3"></div>
-                
-                <div class="container">
-                        
-                    <div class="row">
-                        <div class="col-md-12 ">
-                                
-                            <div class="main_home text-center wow fadeInUp" data-wow-duration="700ms">
-                                <h1>Ideas innovadoras. <br /> 
-                                    Explora la creatividad.</h1>
-                                   
+        <section id="home" class="home">
+
+            <div class="overlay" style="opacity: 0.3"></div>
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12 ">
+
+                        <div class="main_home text-center wow fadeInUp" data-wow-duration="700ms">
+                            <h1>Ideas innovadoras. <br />
+                                Explora la creatividad.</h1>
+                            <div class="scrolld">
                                 <ul class="list-inline ">
-                                        <li><a href="#home">Inicio</a></li>
-                                        <li><a href="#about">Acerca de</a></li>
-                                        <li><a href="#service">Proyectos</a></li>
-                                        <li><a href="#contactus">Contacto</a></li>
+                                    <li><a href="#home">Inicio</a></li>
+                                    <li><a href="#about">Acerca de</a></li>
+                                    <li><a href="#portfolio">Proyectos</a></li>
+                                    <li><a href="#team">Equipo</a></li>
+                                    <li><a href="#contactus">Contacto</a></li>
                                 </ul>
-                            
                             </div>
-                            
-                            <div class="scrolldown">
-                                <a href="#about"><i class="fa fa-long-arrow-down"></i></a>
-                            </div>
-                            
                         </div>
+
+                        <div class="scrolldown">
+                            <a href="#about"><i class="fa fa-long-arrow-down"></i></a>
+                        </div>
+
                     </div>
                 </div>
-            </section>-->
+            </div>
+        </section>-->
         <!-- End of Home Section -->
 
 
@@ -182,13 +188,13 @@
         </section><!-- End of Home Section -->
         <section id="portfolio" class="portfolio">
             <div class="container">
-                    <h2>Nuestros Proyectos</h2>
-                    <div class="main_portfolio_content">
-                            
-                <div class="row">
-                    <div class="col-sm">
+                <h2>Nuestros Proyectos</h2>
+                <div class="main_portfolio_content">
 
-                        
+                    <div class="row">
+                        <div class="col-sm">
+
+
 
 
                             <div class="single_portfolio">
@@ -202,39 +208,53 @@
                                         </div>
                                     </div>
                                 </a>
+                                <div class="mobileShow" style="text-align: center">
+                                    <h2>Edificio Marta</h2>
+                                    <p>Edificio de apartamentos con
+                                        diseño moderno ubicado cerca del estadio.</p>
+                                </div>
                             </div>
 
 
-                        
-                    </div>
-                    <div class="col-sm">
-                        <div class="single_portfolio">
-                            <a href="projects.html" class="gallery-img">
-                                <img src="assets/images/pf12.jpg" alt="" />
-                                <div class="single_portfolio_overlay">
-                                    <div class="icon_area text-center">
-                                        <h2>Edificio Juanchin</h2>
-                                        <p>Este es el mejor edificio.</p>
-                                    </div>
-                                </div>
-                            </a>
+
                         </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="single_portfolio">
-                            <a href="assets/images/pf11.jpg" class="gallery-img">
-                                <img src="assets/images/pf15.jpg" alt="" />
-                                <div class="single_portfolio_overlay">
-                                    <div class="icon_area text-center">
-                                        <h2>Edificio SOHINCO</h2>
-                                        <p>Otro gran edificio.</p>
+                        <div class="col-sm">
+                            <div class="single_portfolio">
+                                <a href="projects.html" class="gallery-img">
+                                    <img src="assets/images/pf12.jpg" alt="" />
+                                    <div class="single_portfolio_overlay">
+                                        <div class="icon_area text-center">
+                                            <h2>Edificio Juanchin</h2>
+                                            <p>Este es el mejor edificio.</p>
+                                        </div>
                                     </div>
+                                </a>
+                                <div class="mobileShow" style="text-align: center">
+                                    <h2>Edificio Juanchin</h2>
+                                    <p>Este es el mejor edificio.</p>
                                 </div>
-                            </a>
+
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="single_portfolio">
+                                <a href="assets/images/pf11.jpg" class="gallery-img">
+                                    <img src="assets/images/pf15.jpg" alt="" />
+                                    <div class="single_portfolio_overlay">
+                                        <div class="icon_area text-center">
+                                            <h2>Edificio SOHINCO</h2>
+                                            <p>Otro gran edificio.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="mobileShow" style="text-align: center">
+                                    <h2>Edificio SOHINCO</h2>
+                                    <p>Otro gran edificio.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
         <section id="service" class="service colorsbg">
@@ -248,9 +268,15 @@
                                         <h2>Nuestros servicios</h2>
                                     </div>
                                     <div class="col-md-8">
-                                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Integer arcu orci, Fermentum Vel finibus ac, blandit at tortor.
-                                            Sed auctor ex id nulla ultricies laoreet. </h6>
+                                        <h6>Nuestro estudio se especializa en desarrollar, proyectar y construir
+                                            arquitectura contemporánea, combinando los conceptos de síntesis, estética
+                                            y funcionalidad, con la flexibilidad de sus espacios y la innovación en el
+                                            uso de los materiales.
+                                            Creemos que la calidad arquitectónica es el resultado de una continuidad en
+                                            el proceso de diseño, comprometiéndonos en todas las etapas del proyecto,
+                                            controlando y supervisando la calidad y concreción de las ideas. Trabajamos
+                                            constantemente junto a consultores, asesores, ingenieros, constructores y
+                                            usuarios, para obtener los mejores resultados. </h6>
                                     </div>
                                 </div>
                             </div>
@@ -265,19 +291,31 @@
                                         <div class="col-md-5 col-md-push-1">
                                             <div class="single_service p-r-1 wow fadeInUp">
                                                 <h2 class="m-b-2">diseño</h2>
-                                                <p>Sed eu nunc id lacus bibendum volutpat vel a odio. Curabitur eu eros
-                                                    eget tortor pretium euismod ut eu justo.
-                                                    Proin laoreet condimentum magna id tincidunt. Proin ultricies,
-                                                    sapien sed pharetra ullamcorper, erat dui mollis mi,
-                                                    vitae viverra leo tellus sit amet dui. Nulla vestibulum ante
-                                                    molestie felis accumsan tempor. </p>
+                                                <p>Con esta primera etapa los clientes solicitan un diseño
+                                                    arquitectónico para una idea o proyecto que tienen en mente
+                                                    desarrollar ya sea para un edificio nuevo de oficinas, desarrollo
+                                                    de departamentos, conjunto de casas, plazas comerciales, casas de
+                                                    campo o playa, diseño interior, remodelación de su vivienda,
+                                                    hospitales, museos, hoteles o simplemente re-diseñar su terraza
+                                                    para vivirla con la familia o recibir a los amigos donde puedan
+                                                    vivir grandes momentos.
 
-                                                <p>Duis aliquam, neque at porttitor tempus, enim felis finibus tortor,
-                                                    at fringilla mi nulla at magna.
-                                                    Cras accumsan elit quis varius placerat. Morbi fringilla gravida
-                                                    arcu sed tempus. Pellentesque faucibus neque eu ultricies pharetra.
-                                                    Phasellus ligula dolor, condimentum ut elementum eget, ullamcorper
-                                                    nec lectus.</p>
+                                                    Por eso en esta etapa hemos desarrollado un cotizador para que
+                                                    puedan tener un costo inmediato por el diseño arquitectónico de su
+                                                    idea y así ayudarlos a promover sus proyectos.
+
+                                                    El alcance de esta etapa se compone principalmente en la entrega de
+                                                    un diseño arquitectónico que traduzca las ideas de nuestros
+                                                    clientes, exponiendo una presentación que buscara en todo momento
+                                                    sorprender y emocionar con soluciones arquitectónicas del proyecto
+                                                    solicitado.
+
+                                                    Una vez aprobado el diseño nuestros clientes reciben una
+                                                    presentación con las visualizaciones 3D (perspectivas
+                                                    arquitectónicas) y una tabla de áreas del proyecto que componen el
+                                                    diseño arquitectónico. Con esto nuestros clientes tienen la
+                                                    documentación necesaria para iniciar la evaluación y desarrollo de
+                                                    sus proyectos.</p>
 
                                             </div>
                                         </div>
@@ -295,19 +333,14 @@
                                         <div class="col-md-5 col-md-pull-6">
                                             <div class="single_service single_service_left_text wow fadeInUp">
                                                 <h2 class="m-b-2">construcción</h2>
-                                                <p>Sed eu nunc id lacus bibendum volutpat vel a odio. Curabitur eu eros
-                                                    eget tortor pretium euismod ut eu justo.
-                                                    Proin laoreet condimentum magna id tincidunt. Proin ultricies,
-                                                    sapien sed pharetra ullamcorper, erat dui mollis mi,
-                                                    vitae viverra leo tellus sit amet dui. Nulla vestibulum ante
-                                                    molestie felis accumsan tempor. </p>
-
-                                                <p>Duis aliquam, neque at porttitor tempus, enim felis finibus tortor,
-                                                    at fringilla mi nulla at magna.
-                                                    Cras accumsan elit quis varius placerat. Morbi fringilla gravida
-                                                    arcu sed tempus. Pellentesque faucibus neque eu ultricies pharetra.
-                                                    Phasellus ligula dolor, condimentum ut elementum eget, ullamcorper
-                                                    nec lectus.</p>
+                                                <p>Plataforma digital de arquitectura y construcción que facilita el
+                                                    intercambio entre proveedores y compradores del sector, con acceso
+                                                    gratuito directo a miles de productos, servicios, fabricantes y
+                                                    distribuidores. La plataforma está diseñada para que puedan
+                                                    interactuar todos los que participan en la industria de la
+                                                    construcción; empresas de todos los niveles, instituciones,
+                                                    estudios de arquitectura, ingenieros, maestros de obra,
+                                                    decoradores, estudiantes y usuarios particulares.</p>
 
                                             </div>
                                         </div>
@@ -379,48 +412,6 @@
             </div><!-- End of container -->
         </section><!-- End of Team Section -->
 
-        <!-- Testiomonial Section -->
-        <section id="testiomonial" class="testimonial">
-            <div class="main_testimonial_area">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="head_title m-y-3 p-t-2  wow fadeInUp">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <h2>Comentarios</h2>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h6>
-                                            Reconocimientos de grandes profesionales.
-                                            Juanchin de bar.
-                                        </h6>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="testimonial_content text-center p-y-3 m-b-3">
-                                <div class="test_slider">
-                                    <div class="single_test">
-                                        <h3 class="">m4 Arquitectura no solo ayuda a realizar construcciones,
-                                            tambien arte.</h3>
-                                        <p>- Cuthinio</p>
-                                    </div>
-                                    <div class="single_test">
-                                        <h3 class="">m4 Arquitectura no solo ayuda a realizar construcciones,
-                                            tambien arte.</h3>
-                                        <p>- Cuthinio</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div> <!-- End off col-md-12 -->
-                    </div>
-                </div>
-            </div>
-        </section> <!-- End of testimonial Section -->
-
         <!--
             <section id="blog" class="blog">
                 <div class="container">
@@ -476,91 +467,86 @@
                     </div>
                 </div>
         </section>-->
-       
+
 
         <!-- Contact Section -->
         <section id="contactus" class="contactus colorsbg">
             <div class="container-fluid">
-                    <div class="main_service_area main_contactus_area">
+                <div class="main_service_area main_contactus_area">
 
-                        <div class="row">
-                            <div class="col-md-6 no-padding">
-                                <div class="contact_us_right wow fadeInLeft">
-                                    <div class="single_contactus">
-                                        <iframe class="ourmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.4937951846614!2d-66.1683995855043!3d-17.388074588078165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e3740b38c45eab%3A0xab46ecade41615f7!2sAv+Humboldt%2C+Cochabamba%2C+Bolivia!5e0!3m2!1sen!2sfr!4v1539539786789"
-                                            allowfullscreen>
-                                        </iframe>
-                                    </div>
+                    <div class="row">
+                        <div class="col-md-6 no-padding">
+                            <div class="contact_us_right wow fadeInLeft">
+                                <div class="single_contactus">
+                                    <iframe class="ourmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.4937951846614!2d-66.1683995855043!3d-17.388074588078165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e3740b38c45eab%3A0xab46ecade41615f7!2sAv+Humboldt%2C+Cochabamba%2C+Bolivia!5e0!3m2!1sen!2sfr!4v1539539786789"
+                                        allowfullscreen>
+                                    </iframe>
                                 </div>
-                            </div><!-- End of col-md-6 -->
+                            </div>
+                        </div><!-- End of col-md-6 -->
 
 
-                            <div class="col-md-6 no-padding wow rollIn">
-                                <div class="main_contact_area p-t-2 p-x-3">
-                                    <div class="head_title">
-                                        <h2>Contáctanos</h2>
-                                    </div>
-                                    <div class="single_contant_right">
-                                        <form action="#" id="formid">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" name="name" placeholder="Tu nombre..."
-                                                            required="">
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" name="phone"
-                                                            placeholder="Teléfono" required="">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <input type="email" class="form-control" name="email"
-                                                            placeholder="E-mail" required="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <textarea class="form-control" name="message" rows="8"
-                                                            placeholder="Tu mensaje"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                                <div class="m-b-2 m-t-2">
-                                                    <input type="submit" value="Enviar mensaje">
-                                                </div>
-                                            
-                                        </form>
-
-                                    </div>
-                                    <!-- Copyright -->
-                                    <div class="row">
-                                        <div class="main_footer">
-                                            <div class="col-md-3">
-                                                <div class="footer_logo text-xs-center m-b-2">
-                                                    <a href="#home"><img src="assets/images/logo.png" alt="" /></a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-1 no-padding">
-                                                <div class="scrollup center">
-                                                    <a href="#"><i class="fa fa-chevron-up"></i></a>
+                        <div class="col-md-6 no-padding wow rollIn">
+                            <div class="main_contact_area p-t-2 p-x-3">
+                                <div class="head_title">
+                                    <h2>Contáctanos</h2>
+                                </div>
+                                <div class="single_contant_right">
+                                    <form action="#" id="formid">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="name" placeholder="Tu nombre..."
+                                                        required="">
                                                 </div>
                                             </div>
                                         </div>
-                                    </div><!-- End of row -->
-                                </div><!-- End of main contact area -->
 
-                            </div><!-- End of col-md-6 -->
-                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="phone" placeholder="Teléfono"
+                                                        required="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" name="email" placeholder="E-mail"
+                                                        required="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea class="form-control" name="message" rows="8" placeholder="Tu mensaje"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="m-b-2 m-t-2">
+                                            <input type="submit" value="Enviar mensaje">
+                                        </div>
+
+                                    </form>
+
+                                </div>
+                                <!-- Copyright -->
+                                <div class="row">
+                                    <div class="main_footer">
+                                        <div class="col-md-3">
+                                            <div class="footer_logo text-xs-center m-b-2">
+                                                <a href="#home"><img src="assets/images/logo.png" alt="" /></a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div><!-- End of row -->
+                            </div><!-- End of main contact area -->
+
+                        </div><!-- End of col-md-6 -->
                     </div>
+                </div>
             </div><!-- End of container -->
         </section><!-- End of Contactus Section -->
 
@@ -670,6 +656,22 @@
             $(window).bind("orientationchange", ScaleSlider);
             //responsive code end
         });
+
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+
+            if (document.body.scrollTop > 150) {
+
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
     </script>
 
 </body>

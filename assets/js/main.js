@@ -171,6 +171,12 @@ $('.scrolldown a').bind('click', function () {
     event.preventDefault();
 });
 
+$('.scrolld a').bind('click', function () {
+    $('html , body').stop().animate({
+        scrollTop: $($(this).attr('href')).offset().top - 160
+    }, 1500, 'easeInOutExpo');
+    event.preventDefault();
+});
 
 
 
